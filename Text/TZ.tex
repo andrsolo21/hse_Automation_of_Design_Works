@@ -1,0 +1,89 @@
+%!TEX TS-program = xelatex
+
+% Шаблон документа LaTeX создан в 2018 году
+% Алексеем Подчезерцевым
+% В качестве исходных использованы шаблоны
+% 	Данилом Фёдоровых (danil@fedorovykh.ru) 
+%		https://www.writelatex.com/coursera/latex/5.2.2
+%	LaTeX-шаблон для русской кандидатской диссертации и её автореферата.
+%		https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template
+
+\documentclass[a4paper,14pt]{article}
+
+\input{data/preambular.tex}
+\begin{document} % конец преамбулы, начало документа
+\input{data/title_TZ.tex}
+\tableofcontents
+\pagebreak
+
+\section*{ВВЕДЕНИЕ}
+
+Данный документ является техническим заданием на разработку комплексного электронного макета радиоэлектронного средства <<THISname>>.
+
+Документ составляется в соответствии с ГОСТ 19.201-78: <<Техническое задание. Требования к содержанию и оформлению>>.
+\newpage 
+
+\section{ОСНОВАНИЕ ДЛЯ РАЗРАБОТКИ}
+
+<<THISname>> разрабатывается на основании учебного плана образовательной программы <<Информатика и вычислительная техника>> Московского Института Электроники и Математики им. А.Н. Тихонова по дисциплине <<Автоматизация проектных работ>>. 
+\newpage 
+
+\section{НАЗНАЧЕНИЕ РАЗРАБОТКИ}
+\subsection{НАЗНАЧЕНИЕ СИСТЕМЫ}
+
+Диммер является TODO устройством, позволяющим регулировать яркость светодиодов.	
+
+\newpage
+
+\subsection{ЦЕЛЬ РАЗРАБОТКИ}
+
+Целью разработки является создание TODO устройства, позволяющего регулировать яркость светодиодов.	
+
+\newpage
+
+\section{ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ}
+
+Напряжение питания -- ~220В
+
+Материал корпуса -- пластик
+
+\newpage
+
+
+\section{СХЕМА}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{image/sh.jpg}
+	\caption{Схема диммера}
+	\label{fig:sh}
+\end{figure}
+
+\newpage
+
+\section{ПРИНЦИП РАБОТЫ}
+
+%http://samlib.ru/m/makeew_l_a/1615.shtml
+
+\newpage
+\section{ТРЕБОВАНИЯ}
+
+Основные требования при разработке устройства:
+
+\begin{itemize}
+	\item Дешевизна;
+	\item Надежность;
+	\item Малогабаритность;
+	\item Удобство использования.
+\end{itemize}
+
+
+%\newpage
+%\renewcommand{\refname}{{\normalsize СПИСОК %ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}} 
+%\centering 
+%\begin{thebibliography}{9} 
+%	\addcontentsline{toc}{section}{\refname} 
+%	\bibitem{sql} 
+%\end{thebibliography}
+
+\end{document} % конец документа
