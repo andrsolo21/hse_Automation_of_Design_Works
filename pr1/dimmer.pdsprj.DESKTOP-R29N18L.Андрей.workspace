@@ -35,6 +35,9 @@
    <POPUP w="695" x="27" flags="00000000" y="137" h="453" pid="0" iid="9">
     <PROPERTIES/>
    </POPUP>
+   <POPUP w="695" x="560" flags="00008001" y="130" h="453" pid="0" iid="14">
+    <PROPERTIES/>
+   </POPUP>
   </PWI>
  </MODULE>
 </WORKSPACE>
