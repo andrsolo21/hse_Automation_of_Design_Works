@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<!DOCTYPE rwi SYSTEM "rwi.dtd">
+<rwi>
+	<jobCode></jobCode>
+	<title>Лампа с диммером</title>
+	<summary></summary>
+	<workType></workType>
+	<role></role>
+	<expTime></expTime>
+	<workCell></workCell>
+	<preJob></preJob>
+	<postJob></postJob>
+	<workOrder></workOrder>
+	<revision></revision>
+	<preq>
+		<para>Перед вами интерактивное электронное техническое руководство для Лампы с диммером.</para>
+		<para></para>
+		<para>Упралять яркостья светодиодов можно с помощью ручки потенциометра. При вращении по часовой стрелке яркость возрастает, при вращении против часовой стрелки яркость падает. Если провернуть ручку регулировки яркости до конца против часовой стрелки, то при щелчке лампа полностью выключится.</para>
+		<para></para>
+		<para>В проекте принимали участие:</para>
+		<para>Подчезерцев Алексей</para>
+		<para>Солодянкин Андрей</para>
+	</preq>
+	<bom><part id="id04">
+			<pnr>J3</pnr>
+			<desc>Панелька однорядная цанговая 2 конт.</desc>
+			<qty>1</qty>
+			<altpnr>SCSL-20 (DS1002-01-20)</altpnr>
+		</part>
+		<part id="id03">
+			<pnr>D3-D37</pnr>
+			<desc>KPTD-3216SYC, Светодиод желтый SMD 1206, 110-300мКд, 50°, 588нМ</desc>
+			<qty>35</qty>
+			<altpnr>KPTD-3216SYC</altpnr>
+		</part>
+		<part id="id05">
+			<pnr>J2</pnr>
+			<desc>Панелька однорядная цанговая 2 конт.</desc>
+			<qty>1</qty>
+			<altpnr>DS1002-01-1*20V13-JK</altpnr>
+		</part>
+		<part id="id06">
+			<pnr>R3</pnr>
+			<desc>1Вт 2512 100 Ом, 5%, Чип резистор (SMD)</desc>
+			<qty>1</qty>
+			<altpnr>RC2512JR-07100RL</altpnr>
+		</part>
+		<part id="id07">
+			<pnr>J1</pnr>
+			<desc>Панелька однорядная цанговая 2 конт.</desc>
+			<qty>1</qty>
+			<altpnr>DS1002-01-1*20V13-JK</altpnr>
+		</part>
+		<part id="id08">
+			<pnr>RV1</pnr>
+			<desc>S16KN1-B100K, L20KC, 100 кОм, Резистор переменный с выключателем</desc>
+			<qty>1</qty>
+			<altpnr>S16KN1-B100K,L20KC</altpnr>
+		</part>
+		<part id="id09">
+			<pnr>U1</pnr>
+			<desc>CD4049UBE, Инвертирующий буфер (=КР1561ЛН2), [PDIP-16]</desc>
+			<qty>1</qty>
+			<altpnr>CD4049UBE</altpnr>
+		</part>
+		<part id="id10">
+			<pnr>C6</pnr>
+			<desc>ECAP (К50-35), 10мкФ, 400В, 105°C, 20%, 10x16мм P:5мм, Конденсатор электролитический алюминиевый</desc>
+			<qty>1</qty>
+			<altpnr>JRB2G100M05001000160000B</altpnr>
+		</part>
+		<part id="id11">
+			<pnr>C8</pnr>
+			<desc>ECAP (К50-35), 10мкФ, 400В, 105°C, 20%, 10x16мм P:5мм, Конденсатор электролитический алюминиевый</desc>
+			<qty>1</qty>
+			<altpnr>JRB2G100M05001000160000B</altpnr>
+		</part>
+		<part id="id12">
+			<pnr>C4</pnr>
+			<desc>Кер.ЧИП конд. 0.47мкФ X7R 10% 1812, 250 В, GRM43DR72E474K</desc>
+			<qty>1</qty>
+			<altpnr>GRM43DR72E474KW01L</altpnr>
+		</part>
+		<part id="id13">
+			<pnr>555</pnr>
+			<desc>NE555N, Прецизионный таймер, [DIP-8]</desc>
+			<qty>1</qty>
+			<altpnr>NE555N</altpnr>
+		</part>
+		<part id="id14">
+			<pnr>BR1</pnr>
+			<desc>DB157, Диодный мост 1.5A [DB-1]</desc>
+			<qty>1</qty>
+			<altpnr>DB157</altpnr>
+		</part>
+		<part id="id15">
+			<pnr>D1</pnr>
+			<desc>BZX55C12, Стабилитрон 12В, 5%, 0.5Вт, [DO-35]</desc>
+			<qty>1</qty>
+			<altpnr>BZX55C12</altpnr>
+		</part>
+		<part id="id16">
+			<pnr>C1</pnr>
+			<desc>Конд.кер.диск. 0.1 мкФ х 50В,+80-20%</desc>
+			<qty>1</qty>
+			<altpnr>0.1UFX50VY5V,+/80-20%</altpnr>
+		</part>
+		<part id="id17">
+			<pnr>C3</pnr>
+			<desc>ECAP (К50-35), 22мкФ, 100В, 105°C, 20%, 6.3x12мм P:2.5мм, Конденсатор электролитический алюминиевый</desc>
+			<qty>1</qty>
+			<altpnr>JRB2A220M02500630120000B</altpnr>
+		</part>
+		<part id="id18">
+			<pnr>R5</pnr>
+			<desc>1Вт 2512 150 кОм, 5%, Чип резистор (SMD)</desc>
+			<qty>1</qty>
+			<altpnr>RC2512JR-07150KL</altpnr>
+		</part>
+		<part id="id19">
+			<pnr>D2</pnr>
+			<desc>SF16, Диод быстродействующий 1А/30А,400В [DO-41]</desc>
+			<qty>1</qty>
+			<altpnr>SF16</altpnr>
+		</part>
+		<part id="id20">
+			<pnr>Q1</pnr>
+			<desc>IRF820PBF, Транзистор, N-канал 500В 2.5А [TO-220AB]</desc>
+			<qty>1</qty>
+			<altpnr>IRF820PBF</altpnr>
+		</part>
+		<part id="id21">
+			<pnr>R2</pnr>
+			<desc>1Вт 2512 1 МОм, 5%, Чип резистор (SMD)</desc>
+			<qty>1</qty>
+			<altpnr>RC2512JR-071ML</altpnr>
+		</part>
+		<part id="id22">
+			<pnr>R4</pnr>
+			<desc>1Вт 2512 470 кОм, 5%, Чип резистор (SMD)</desc>
+			<qty>1</qty>
+			<altpnr>RC2512JR-07470KL</altpnr>
+		</part>
+		<part id="id23">
+			<pnr>R1</pnr>
+			<desc>0.125Вт 0805 15 кОм, 1%, Чип резистор (SMD)</desc>
+			<qty>1</qty>
+			<altpnr>RC0805FR-0715KL</altpnr>
+		</part>
+		<part id="id24">
+			<pnr>C2</pnr>
+			<desc>JYC3F221KCB, 220 пФ, 3 кВ, 10%, Y5P, D=6.5мм, Конденсатор керамический дисковый</desc>
+			<qty>1</qty>
+			<altpnr>JYC3F221KCB065000B</altpnr>
+		</part>
+		<part id="id25">
+			<pnr>L1</pnr>
+			<desc>B82615B2302M001, 2.5 мГн, 3 А, Дроссель силовой</desc>
+			<qty>1</qty>
+			<altpnr>B82615B2302M001</altpnr>
+		</part>
+		<part id="id26">
+			<pnr>R6</pnr>
+			<desc>1Вт 2512 1 кОм, 1%, Чип резистор (SMD)</desc>
+			<qty>1</qty>
+			<altpnr>RC2512FR-071KL</altpnr>
+		</part>
+		<part id="id27">
+			<pnr>R7</pnr>
+			<desc>1Вт 2512 1 кОм, 1%, Чип резистор (SMD)</desc>
+			<qty>1</qty>
+			<altpnr>RC2512FR-071KL</altpnr>
+		</part>
+		<part id="id36">
+			<pnr>wire01</pnr>
+			<desc>Кабель питания для бытовой техники - хвостовик восьмёрка</desc>
+			<qty>1</qty>
+			<altpnr>CEE 7-16</altpnr>
+		</part>
+		<part id="id37">
+			<pnr>wire02</pnr>
+			<desc>Провод питания светодиодов</desc>
+			<qty>1</qty>
+		</part>
+		<part id="id28">
+			<pnr>Винты</pnr>
+			<desc>Резьбообразующие винты с плоской головкой для пластика, нержавеющая сталь 410, размер номера 4, Длина 1/2"</desc>
+			<qty>8</qty>
+			<altpnr>96068A105</altpnr>
+		</part>
+		<part id="id29">
+			<pnr>body01</pnr>
+			<desc>Корпус лампы, ABS пластик</desc>
+			<qty>1</qty>
+		</part>
+		<part id="id30">
+			<pnr>body02</pnr>
+			<desc>Нижняя крышка лампы, ABS пластик</desc>
+			<qty>1</qty>
+		</part>
+		<part id="id31">
+			<pnr>body03</pnr>
+			<desc>Верхняя крышка лампы, прозрачный ABS пластик</desc>
+			<qty>1</qty>
+		</part>
+		<part id="id32">
+			<pnr>body04</pnr>
+			<desc>Ручка ругулировки яркости, ABS пластик</desc>
+			<qty>1</qty>
+		</part>
+		<part id="id35">
+			<pnr>body05</pnr>
+			<desc>Радиатор, алюминий</desc>
+			<qty>1</qty>
+		</part>
+	</bom>
+	<job id="stepa92087d8ca63f88c9a78ddf403442ad5">
+		<title>Лампа с диммером</title>
+		<task id="r2bda219d-d3ed-4ab2-abc8-b47bdaa4ad16">
+			<title>Схема лампы</title>
+			<para>Снять ручка.</para>
+			<para>Снять Винты снизу.</para>
+			<para>Снять нижняя крышка.</para>
+			<para>Снять shem_model_new_5_addR v3:1.</para>
+			<para>Снять винты справа.</para>
+			<para>Снять винты слева.</para>
+			<para>Снять корпус.</para>
+			<para>Снять верхняя крышка.</para>
+			<para>Снять радиатор.</para>
+			<para>Инспектировать корпус.</para>
+			<para>Инспектировать корпус.</para>
+			<para>Инспектировать корпус.</para>
+			<para>Инспектировать корпус.</para>
+			<para>
+				<xref xrefid="id29">Корпус лампы, ABS пластик</xref>
+				<xref xrefid="id30">Нижняя крышка лампы, ABS пластик</xref>
+				<xref xrefid="id31">Верхняя крышка лампы, прозрачный ABS пластик</xref>
+				<xref xrefid="id32">Ручка ругулировки яркости, ABS пластик</xref>
+				<xref xrefid="id35">Радиатор, алюминий</xref>
+			</para>
+		</task>
+	</job>
+</rwi>
