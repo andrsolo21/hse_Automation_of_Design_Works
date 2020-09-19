@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by VME v.10.0.0.0 (build 10.0.0.459 (64-bit))-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+	<SimulationInformation>
+		<ExporterVersionNumber>10.0.0.459 (64-bit)</ExporterVersionNumber>
+		<ModificationDate>06/03/20</ModificationDate>
+		<SpecID>RAPID_WORK_INSTRUCTIONS</SpecID>
+		<SpecVersion>3.2</SpecVersion>
+		<SpecLang>ru</SpecLang>
+		<XMLFileName>dimmer_ietr</XMLFileName>
+		<FileName>dimmer_ietr</FileName>
+		<DocumentFile>dimmer_ietr.xml</DocumentFile>
+		<Options>
+			<Value name="3DFramePosition">Right</Value>
+			<Value name="3DFrameSize">60</Value>
+			<Value name="ShowSmoothControl">Yes</Value>
+			<Value name="ShowSpeedSelection">Yes</Value>
+			<Value name="ShowMessagesBox">Yes</Value>
+			<Value name="ShowFreezeCheckbox">Yes</Value>
+			<Value name="ShowPMIBox">Yes</Value>
+			<Value name="EnablePMI">Yes</Value>
+			<Value name="EnableWarnings">Yes</Value>
+			<Value name="AutoNumbering">Yes</Value>
+			<Value name="TableFontSize">Medium</Value>
+			<Value name="UpRight">No</Value>
+			<Value name="3DBackgroundColor">#FFFFFF</Value>
+			<Value name="ToolbarColor">#FFFFFF</Value>
+			<Value name="ToolbarBackgroundColor">#8080C0</Value>
+			<Value name="TableColor">#000000</Value>
+			<Value name="TableBackgroundColor">#FFFFFF</Value>
+			<Value name="TableSelectedColor">#000000</Value>
+			<Value name="TableSelectedBackgroundColor">#FFFFA0</Value>
+			<Value name="TableHeaderColor">#000000</Value>
+			<Value name="TableHeaderBackgroundColor">#FFFFFF</Value>
+			<Value name="TableBorderColor">#000000</Value>
+			<Value name="RemoveSpace">No</Value>
+			<Value name="SimplifyFloats">No</Value>
+			<Value name="CoordinateResolution">0</Value>
+			<Value name="MessageBodyColor">#FFFFFF</Value>
+			<Value name="MessageBodyBackgroundColor">#808080</Value>
+			<Value name="MessageTextAreaColor">#000000</Value>
+			<Value name="MessageTextAreaBackgroundColor">#FFFFFF</Value>
+			<Value name="MessageTextAreaFontSize">Medium</Value>
+			<Value name="PadsTextColor">#000000</Value>
+			<Value name="PadsBackgroundColor">#E0E0E0</Value>
+			<Value name="SubHeadersTextColor">#000000</Value>
+			<Value name="SubHeadersBackgroundColor">#B0B0B0</Value>
+			<Value name="BOMStyle">0</Value>
+			<Value name="TooltipFormat">Объект: %[_6A7337C8022746BA8C02F29B0FC2257F]
+Номер: %[_F0CF006A8AC54725A80D5DC19077CD1D]</Value>
+			<Value name="VRMLProfile">1</Value>
+			<Value name="ForceDirectX">Yes</Value>
+			<Value name="UsePlugins">Yes</Value>
+			<Value name="PublicPath"/>
+			<Value name="TotalMemory">128</Value>
+		</Options>
+		<metadata>
+			<value name="Title" decl-id="_7CB2D3B03481490F9B11E0F724C81A0C">Лампа с диммером</value>
+			<value name="Expected Time" decl-id="_98DFDC28D40C4F78A2676448BA21B62D"/>
+			<value name="Prerequisite" decl-id="_BBE2C60B98684AFE8538AC8CBD1BD0E2">Перед вами интерактивное электронное техническое руководство для Лампы с диммером.
+
+Упралять яркостья светодиодов можно с помощью ручки потенциометра. При вращении по часовой стрелке яркость возрастает, при вращении против часовой стрелки яркость падает. Если провернуть ручку регулировки яркости до конца против часовой стрелки, то при щелчке лампа полностью выключится.
+
+В проекте принимали участие:
+Подчезерцев Алексей
+Солодянкин Андрей</value>
+		</metadata>
+	</SimulationInformation>
+	<Simulation id="stepa92087d8ca63f88c9a78ddf403442ad5">
+		<Description>Лампа с диммером</Description>
+		<Step id="r2bda219d-d3ed-4ab2-abc8-b47bdaa4ad16">
+			<Description>Схема лампы</Description>
+			<Substep id="r5595d639-7608-4fc3-8549-127577445af6">
+				<Description>Снять ручка</Description>
+			</Substep>
+			<Substep id="rab135b7f-1b61-4a78-b1e2-923e042301a9">
+				<Description>Снять Винты снизу</Description>
+			</Substep>
+			<Substep id="r698742a6-e0cc-4e4c-94ed-ade5f7b1d72a">
+				<Description>Снять нижняя крышка</Description>
+			</Substep>
+			<Substep id="r3ccbfd83-6302-49df-b7e3-e453ceb0ff29">
+				<Description>Снять shem_model_new_5_addR v3:1</Description>
+			</Substep>
+			<Substep id="r869eea15-2056-4917-acc9-59d44506065e">
+				<Description>Снять винты справа</Description>
+			</Substep>
+			<Substep id="r16a9faa2-1e80-4ad6-98a7-8f518e514003">
+				<Description>Снять винты слева</Description>
+			</Substep>
+			<Substep id="r43e9be0a-6a24-4e18-88d6-1dc5f5075481">
+				<Description>Снять корпус</Description>
+			</Substep>
+			<Substep id="rc0e34b6a-b90f-4391-88da-3cd7682b6da2">
+				<Description>Снять верхняя крышка</Description>
+			</Substep>
+			<Substep id="rbaa3c198-ece9-4c95-8d29-85d45b768c55">
+				<Description>Снять радиатор</Description>
+			</Substep>
+			<Substep id="rffff5d56-a01e-4628-9d52-bfa01a974cff">
+				<Description>Инспектировать корпус</Description>
+			</Substep>
+			<Substep id="rf7c39d71-2f02-4bff-920a-874a330c2628">
+				<Description>Инспектировать корпус</Description>
+			</Substep>
+			<Substep id="rb2234026-ceb8-4f22-b85a-cb8ee533acbf">
+				<Description>Инспектировать корпус</Description>
+			</Substep>
+			<Substep id="r64847ce7-2f6f-43ea-9221-612f01085ea3">
+				<Description>Инспектировать корпус</Description>
+			</Substep>
+		</Step>
+	</Simulation>
+	<Procedure id="stepa92087d8ca63f88c9a78ddf403442ad5">
+		<Item id="r2bda219d-d3ed-4ab2-abc8-b47bdaa4ad16">
+			<Action id="r5595d639-7608-4fc3-8549-127577445af6">
+				<metadata/>
+			</Action>
+			<Action id="rab135b7f-1b61-4a78-b1e2-923e042301a9">
+				<metadata/>
+			</Action>
+			<Action id="r698742a6-e0cc-4e4c-94ed-ade5f7b1d72a">
+				<metadata/>
+			</Action>
+			<Action id="r3ccbfd83-6302-49df-b7e3-e453ceb0ff29">
+				<metadata/>
+			</Action>
+			<Action id="r869eea15-2056-4917-acc9-59d44506065e">
+				<metadata/>
+			</Action>
+			<Action id="r16a9faa2-1e80-4ad6-98a7-8f518e514003">
+				<metadata/>
+			</Action>
+			<Action id="r43e9be0a-6a24-4e18-88d6-1dc5f5075481">
+				<metadata/>
+			</Action>
+			<Action id="rc0e34b6a-b90f-4391-88da-3cd7682b6da2">
+				<metadata/>
+			</Action>
+			<Action id="rbaa3c198-ece9-4c95-8d29-85d45b768c55">
+				<metadata/>
+			</Action>
+			<Action id="rffff5d56-a01e-4628-9d52-bfa01a974cff">
+				<metadata/>
+			</Action>
+			<Action id="rf7c39d71-2f02-4bff-920a-874a330c2628">
+				<metadata/>
+			</Action>
+			<Action id="rb2234026-ceb8-4f22-b85a-cb8ee533acbf">
+				<metadata/>
+			</Action>
+			<Action id="r64847ce7-2f6f-43ea-9221-612f01085ea3">
+				<metadata/>
+			</Action>
+			<metadata/>
+		</Item>
+	</Procedure>
+	<DocItems>
+		<DocItem id="коннектор_3_4" objectID="2290846202672">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.004999962 0.04448232 -0.015654456 -2.7716172E-9 2.662266E-10 9.999999E-4 6.4214087E-9 -0.001 2.364342E-10 0.001 6.3915992E-9 2.8014253E-9</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Панелька однорядная цанговая 2 конт.</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">SCSL-20 (DS1002-01-20)</value>
+				<value name="DocID" decl-id="DocID">id04</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">J3</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Панелька однорядная цанговая 2 конт.
+Номер: J3]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="светодиоды_5" objectID="2290846198752">
+			<metadata>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">KPTD-3216SYC</value>
+				<value name="DocID" decl-id="DocID">id03</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">KPTD-3216SYC, Светодиод желтый SMD 1206, 110-300мКд, 50°, 588нМ</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">35</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">D3-D37</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: KPTD-3216SYC, Светодиод желтый SMD 1206, 110-300мКд, 50°, 588нМ
+Номер: D3-D37]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1:1_(36)_94" objectID="2290816471248">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.055 0.006032141 0.0020854971 -3.6199896E-9 -3.61999E-9 -9.999999E-4 3.6199899E-9 9.999999E-4 -3.6200032E-9 9.999999E-4 -3.620003E-9 -3.6199772E-9</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">DS1002-01-1*20V13-JK</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Панелька однорядная цанговая 2 конт.</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="DocID" decl-id="DocID">id05</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">J2</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Панелька однорядная цанговая 2 конт.
+Номер: J2]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_3_1:1_95" objectID="2290816469328">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.054999996 0.0060320846 -0.013504505 -3.6199899E-9 3.6199903E-9 0.001 9.999999E-4 1.3104835E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">1Вт 2512 100 Ом, 5%, Чип резистор (SMD)</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">RC2512JR-07100RL</value>
+				<value name="DocID" decl-id="DocID">id06</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R3</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 1Вт 2512 100 Ом, 5%, Чип резистор (SMD)
+Номер: R3]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1:2_99" objectID="2290816471168">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.007500004 0.0060320594 -0.020454502 -3.6199896E-9 -3.61999E-9 -9.999999E-4 3.6199899E-9 9.999999E-4 -3.6200032E-9 9.999999E-4 -3.620003E-9 -3.6199772E-9</value>
+				<value name="DocID" decl-id="DocID">id07</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Панелька однорядная цанговая 2 конт.</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">DS1002-01-1*20V13-JK</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">J1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Панелька однорядная цанговая 2 конт.
+Номер: J1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(2):1_9a" objectID="2290816471728">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.0074999994 0.0060321004 -0.009154504 -3.6199899E-9 -3.6199903E-9 -0.001 -9.999999E-4 1.3103823E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="DocID" decl-id="DocID">id08</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">S16KN1-B100K, L20KC, 100 кОм, Резистор переменный с выключателем</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">S16KN1-B100K,L20KC</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">RV1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: S16KN1-B100K, L20KC, 100 кОм, Резистор переменный с выключателем
+Номер: RV1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(3):1_a3" objectID="2290816467488">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.03710003 0.006032121 -0.0035144878 -9.999999E-4 2.7716391E-9 6.4213985E-9 2.8014082E-9 9.999999E-4 -6.391616E-9 -6.3916055E-9 -6.4214083E-9 -0.001</value>
+				<value name="DocID" decl-id="DocID">id09</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">CD4049UBE, Инвертирующий буфер (=КР1561ЛН2), [PDIP-16]</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">CD4049UBE</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">U1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: CD4049UBE, Инвертирующий буфер (=КР1561ЛН2), [PDIP-16]
+Номер: U1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(4):1_a4" objectID="2290816467408">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.02262 0.0060320646 -0.019004503 -3.6199896E-9 3.61999E-9 9.999999E-4 -3.6199899E-9 9.999999E-4 -3.6200032E-9 -9.999999E-4 -3.620003E-9 -3.6199772E-9</value>
+				<value name="DocID" decl-id="DocID">id10</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">ECAP (К50-35), 10мкФ, 400В, 105°C, 20%, 10x16мм P:5мм, Конденсатор электролитический алюминиевый</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">JRB2G100M05001000160000B</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C6</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: ECAP (К50-35), 10мкФ, 400В, 105°C, 20%, 10x16мм P:5мм, Конденсатор электролитический алюминиевый
+Номер: C6]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(5):1_a5" objectID="2290816470448">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.021589998 0.0060320194 -0.031504504 -3.6199896E-9 -3.61999E-9 -9.999999E-4 3.6199899E-9 9.999999E-4 -3.6200032E-9 9.999999E-4 -3.620003E-9 -3.6199772E-9</value>
+				<value name="DocID" decl-id="DocID">id11</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C8</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">ECAP (К50-35), 10мкФ, 400В, 105°C, 20%, 10x16мм P:5мм, Конденсатор электролитический алюминиевый</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">JRB2G100M05001000160000B</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: ECAP (К50-35), 10мкФ, 400В, 105°C, 20%, 10x16мм P:5мм, Конденсатор электролитический алюминиевый
+Номер: C8]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(6):1_a6" objectID="2290816471808">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.031749997 0.0060320194 -0.031544507 9.999998E-4 5.0532076E-19 -6.1231004E-20 -5.053208E-19 0.001 0.0 6.1231037E-20 0.0 0.001</value>
+				<value name="DocID" decl-id="DocID">id12</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Кер.ЧИП конд. 0.47мкФ X7R 10% 1812, 250 В, GRM43DR72E474K</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C4</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">GRM43DR72E474KW01L</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Кер.ЧИП конд. 0.47мкФ X7R 10% 1812, 250 В, GRM43DR72E474K
+Номер: C4]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(7):1_a7" objectID="2290816469488">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.024320012 0.006032138 0.0012255115 -9.999999E-4 2.7716391E-9 6.4213985E-9 2.8014082E-9 9.999999E-4 -6.391616E-9 -6.3916055E-9 -6.4214083E-9 -0.001</value>
+				<value name="DocID" decl-id="DocID">id13</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">NE555N, Прецизионный таймер, [DIP-8]</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">555</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">NE555N</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: NE555N, Прецизионный таймер, [DIP-8]
+Номер: 555]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_11_1:1_a8" objectID="2290816468368">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.051829997 0.006032056 -0.021384506 -9.999999E-4 9.176828E-15 2.5351818E-9 2.5351816E-9 3.6199903E-9 0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="DocID" decl-id="DocID">id14</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">DB157, Диодный мост 1.5A [DB-1]</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">BR1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">DB157</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: DB157, Диодный мост 1.5A [DB-1]
+Номер: BR1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(9):1_ae" objectID="2290816468528">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.016510017 0.0060320925 -0.011324504 -3.6199899E-9 -3.6199903E-9 -0.001 -9.999999E-4 1.3103823E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="DocID" decl-id="DocID">id15</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">BZX55C12, Стабилитрон 12В, 5%, 0.5Вт, [DO-35]</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">D1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">BZX55C12</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: BZX55C12, Стабилитрон 12В, 5%, 0.5Вт, [DO-35]
+Номер: D1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(10):1_af" objectID="2290816469808">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.026589999 0.0060320925 -0.0113445055 -3.6199896E-9 -3.61999E-9 -9.999999E-4 3.6199899E-9 9.999999E-4 -3.6200032E-9 9.999999E-4 -3.620003E-9 -3.6199772E-9</value>
+				<value name="DocID" decl-id="DocID">id16</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C1</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Конд.кер.диск. 0.1 мкФ х 50В,+80-20%</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">0.1UFX50VY5V,+/80-20%</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Конд.кер.диск. 0.1 мкФ х 50В,+80-20%
+Номер: C1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_14_1:1_b0" objectID="2290816467888">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.012659999 0.006032025 -0.030034503 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="DocID" decl-id="DocID">id17</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C3</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">ECAP (К50-35), 22мкФ, 100В, 105°C, 20%, 6.3x12мм P:2.5мм, Конденсатор электролитический алюминиевый</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">JRB2A220M02500630120000B</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: ECAP (К50-35), 22мкФ, 100В, 105°C, 20%, 6.3x12мм P:2.5мм, Конденсатор электролитический алюминиевый
+Номер: C3]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_15_1:1_b4" objectID="2290816471568">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.035599995 0.006032074 -0.016504506 -3.6199899E-9 -3.6199903E-9 -0.001 -9.999999E-4 1.3103823E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="DocID" decl-id="DocID">id18</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R5</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">1Вт 2512 150 кОм, 5%, Чип резистор (SMD)</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">RC2512JR-07150KL</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 1Вт 2512 150 кОм, 5%, Чип резистор (SMD)
+Номер: R5]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(13):1_b8" objectID="2290816471648">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.041700035 0.00603201 -0.034064505 -3.6199899E-9 -3.6199903E-9 -0.001 -9.999999E-4 1.3103823E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="DocID" decl-id="DocID">id19</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">SF16, Диод быстродействующий 1А/30А,400В [DO-41]</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">D2</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">SF16</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: SF16, Диод быстродействующий 1А/30А,400В [DO-41]
+Номер: D2]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(14):1_b9" objectID="2290816468848">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.049529996 0.009532013 -0.033234518 9.999998E-4 5.0532076E-19 -6.1231004E-20 -5.053208E-19 0.001 0.0 6.1231037E-20 0.0 0.001</value>
+				<value name="DocID" decl-id="DocID">id20</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">IRF820PBF, Транзистор, N-канал 500В 2.5А [TO-220AB]</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">IRF820PBF</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">Q1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: IRF820PBF, Транзистор, N-канал 500В 2.5А [TO-220AB]
+Номер: Q1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_3_1:2_ba" objectID="2290816474608">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.015279999 0.006032134 1.2549758E-4 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="DocID" decl-id="DocID">id21</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">1Вт 2512 1 МОм, 5%, Чип резистор (SMD)</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">RC2512JR-071ML</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R2</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 1Вт 2512 1 МОм, 5%, Чип резистор (SMD)
+Номер: R2]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_3_1:3_be" objectID="2290816473168">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.044999998 0.0060320706 -0.017354503 -3.6199899E-9 -3.6199903E-9 -0.001 -9.999999E-4 1.3103823E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="DocID" decl-id="DocID">id22</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R4</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">1Вт 2512 470 кОм, 5%, Чип резистор (SMD)</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">RC2512JR-07470KL</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 1Вт 2512 470 кОм, 5%, Чип резистор (SMD)
+Номер: R4]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_20_1:1_c2" objectID="2290816474768">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.01143 0.0060320883 -0.012454504 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="DocID" decl-id="DocID">id23</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">0.125Вт 0805 15 кОм, 1%, Чип резистор (SMD)</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">RC0805FR-0715KL</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 0.125Вт 0805 15 кОм, 1%, Чип резистор (SMD)
+Номер: R1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Body_1_(16):1_c6" objectID="2290816473808">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.012699999 0.0060320655 -0.018804504 -9.999999E-4 9.176828E-15 2.5351818E-9 2.5351816E-9 3.6199903E-9 0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="DocID" decl-id="DocID">id24</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">JYC3F221KCB, 220 пФ, 3 кВ, 10%, Y5P, D=6.5мм, Конденсатор керамический дисковый</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">JYC3F221KCB065000B</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">C2</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: JYC3F221KCB, 220 пФ, 3 кВ, 10%, Y5P, D=6.5мм, Конденсатор керамический дисковый
+Номер: C2]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_22_1:1_c7" objectID="2290816473968">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.029999997 0.0060320445 -0.024554504 -9.999999E-4 9.176828E-15 2.5351818E-9 2.5351816E-9 3.6199903E-9 0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="DocID" decl-id="DocID">id25</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">L1</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">B82615B2302M001, 2.5 мГн, 3 А, Дроссель силовой</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">B82615B2302M001</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: B82615B2302M001, 2.5 мГн, 3 А, Дроссель силовой
+Номер: L1]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_3_1:4_cb" objectID="2290816474208">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.044999998 0.006032098 -0.009854503 -3.6199899E-9 -3.6199903E-9 -0.001 -9.999999E-4 1.3103823E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="DocID" decl-id="DocID">id26</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">1Вт 2512 1 кОм, 1%, Чип резистор (SMD)</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R6</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">RC2512FR-071KL</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 1Вт 2512 1 кОм, 1%, Чип резистор (SMD)
+Номер: R6]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="Open_CASCADE_STEP_translator_6_8_1_3_1:5_cf" objectID="2290816472768">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">-0.044999998 0.0060321093 -0.0067545045 -3.6199899E-9 3.6199903E-9 0.001 9.999999E-4 1.3104835E-14 3.6199903E-9 -5.0532097E-19 9.999999E-4 -3.61999E-9</value>
+				<value name="DocID" decl-id="DocID">id27</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">1Вт 2512 1 кОм, 1%, Чип резистор (SMD)</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">RC2512FR-071KL</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">R7</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: 1Вт 2512 1 кОм, 1%, Чип резистор (SMD)
+Номер: R7]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="провода_питания_d3" objectID="2290834896848">
+			<metadata>
+				<value name="DocID" decl-id="DocID">id36</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">CEE 7-16</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Кабель питания для бытовой техники - хвостовик восьмёрка</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">wire01</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Кабель питания для бытовой техники - хвостовик восьмёрка
+Номер: wire01]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="провода_светодиодов_d8" objectID="2290834897088">
+			<metadata>
+				<value name="DocID" decl-id="DocID">id37</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Провод питания светодиодов</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">wire02</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Провод питания светодиодов
+Номер: wire02]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="винты_db" objectID="2290834899248">
+			<metadata>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Резьбообразующие винты с плоской головкой для пластика, нержавеющая сталь 410, размер номера 4, Длина 1/2"</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">8</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06">96068A105</value>
+				<value name="DocID" decl-id="DocID">id28</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">Винты</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Резьбообразующие винты с плоской головкой для пластика, нержавеющая сталь 410, размер номера 4, Длина 1/2"
+Номер: Винты]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="корпус_e9" objectID="2290834897728">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0052571804 0.012945501 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Корпус лампы, ABS пластик</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Alternate Part Number" decl-id="_D2687644A5A5441D84153A3FA15FCB06"/>
+				<value name="DocID" decl-id="DocID">id29</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">body01</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Корпус лампы, ABS пластик
+Номер: body01]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="нижняя_крышка_ea" objectID="2290834899728">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0052571804 0.012945501 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Нижняя крышка лампы, ABS пластик</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="DocID" decl-id="DocID">id30</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">body02</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Нижняя крышка лампы, ABS пластик
+Номер: body02]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="верхняя_крышка_eb" objectID="2290834899408">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0052571804 0.012945501 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Верхняя крышка лампы, прозрачный ABS пластик</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="DocID" decl-id="DocID">id31</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">body03</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Верхняя крышка лампы, прозрачный ABS пластик
+Номер: body03]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="ручка_ec" objectID="2290834897808">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0052571804 0.012945501 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Ручка ругулировки яркости, ABS пластик</value>
+				<value name="DocID" decl-id="DocID">id32</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">body04</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Ручка ругулировки яркости, ABS пластик
+Номер: body04]]>
+			</tooltip>
+		</DocItem>
+		<DocItem id="радиатор_ed" objectID="2290834898928">
+			<metadata>
+				<value name="$UpdateTransform" decl-id="UPDATE_TRANSFORM_2867692E4DEE4801A8C3727F26EA48AE">0.0 0.0052571804 0.012945501 9.999999E-4 5.053208E-19 -6.123101E-20 -6.122921E-20 -3.6199903E-9 -0.001 -5.05321E-19 0.001 -3.6199903E-9</value>
+				<value name="Description" decl-id="_6A7337C8022746BA8C02F29B0FC2257F">Радиатор, алюминий</value>
+				<value name="Qty" decl-id="_F519A19D050D45A68584453C44EA85DC">1</value>
+				<value name="DocID" decl-id="DocID">id35</value>
+				<value name="Part Number" decl-id="_F0CF006A8AC54725A80D5DC19077CD1D">body05</value>
+			</metadata>
+			<tooltip>
+				<![CDATA[Объект: Радиатор, алюминий
+Номер: body05]]>
+			</tooltip>
+		</DocItem>
+	</DocItems>
+	<Resources/>
+</SimulationInteractivity>

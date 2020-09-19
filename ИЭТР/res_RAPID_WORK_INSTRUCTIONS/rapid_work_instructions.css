@@ -1,0 +1,468 @@
+/*! RAPID_WORK_INSTRUCTIONS bundle, Copyright (c) 2011-2017 Paragraphics */
+.captions {
+	font-size: 12px;
+	font-family: tahoma, sans-serif
+}
+.btn_control {
+	font-family: verdana;
+	font-size: 11px;
+	width: 55px;
+	margin-top: 2px
+}
+#btn_signoff {
+	width: auto
+}
+#btn_help {
+	padding: 2px 6px;
+	width: auto
+}
+.cellheader {
+	font-family: sans-serif
+}
+.cellnormal {
+	font-family: arial
+}
+.nspace {
+	cursor: default
+}
+.cellspace {
+	font-family: arial
+}
+.loadingMessage {
+	font: 18px sans-serif;
+	vertical-align: middle;
+	text-align: center
+}
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+	font-family: Verdana, sans-serif
+}
+#rwiHeader,
+#cortonaTD,
+#tdpads,
+#procedureTD,
+#modeTD,
+#cortona_holder {
+	padding: 0
+}
+table {
+	border-spacing: 0;
+	width: 100%
+}
+.msgScroll {
+	width: 99%;
+	height: 90px;
+	overflow: auto;
+	background-color: white
+}
+#MsgSpan {
+	font-family: tahoma, sans-serif;
+	color: black;
+	font-size: 10pt;
+	text-align: center;
+	background-color: white;
+	vertical-align: middle;
+	padding: 2px 5px 2px 5px
+}
+#btnMsgClose {
+	padding: 0 10px 0 10px;
+	margin: 1px 1px 1px 1px
+}
+#messagePanel {
+	height: 120px
+}
+#messageTable {
+	color: white;
+	font-weight: bold;
+	background-color: #808080;
+	table-layout: fixed
+}
+#rwiHeader {
+	padding-bottom: 8px;
+	height: 120px;
+	position: relative;
+	overflow: auto
+}
+#tblRwiHeader td {
+	font-family: sans-serif;
+	padding: 2px 0 2px 10px;
+	margin: 2px 2px 2px 2px
+}
+.mtdnm {
+	font-weight: bold
+}
+.bmdnm {
+	font-weight: bold
+}
+.tblPart {
+	width: 100%
+}
+.tblPart td {
+	font-family: sans-serif;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #000000
+}
+#tdpads {
+	height: 22px
+}
+#divtabs {
+	height: 18px;
+	width: 100%;
+	white-space: nowrap
+}
+.tbtxt {
+	padding: 2px 0 0 0;
+	display: inline-block
+}
+.tab {
+	font-family: verdana;
+	font-size: 11px;
+	padding: 0 10px 5px 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	display: inline-block
+}
+.htab {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0 10px 7px 10px;
+	margin-left: 2px;
+	cursor: default;
+	display: inline-block;
+	height: 100%
+}
+#procedureTD {
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	left: 0;
+	top: 24px;
+	right: 0;
+	bottom: 0;
+	position: absolute
+}
+.divpad {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+	overflow-x: auto;
+	overflow-y: auto
+}
+.divpad>div {
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+#divContainerBOM,
+#divContainerRSR {
+	height: 100%;
+	cursor: default
+}
+#divPartsList {
+	display: none
+}
+#divCurStep,
+#divCurParts,
+#divCurRes {
+	height: 100%;
+	cursor: default
+}
+.curStepTbl td {
+	font-family: sans-serif;
+	padding: 2px 2px 2px 2px;
+	border: 1px solid;
+	cursor: default
+}
+.actionstable,
+#prcTable,
+.curStepTbl {
+	border-collapse: collapse
+}
+#modeTD {
+	height: 22px;
+	vertical-align: middle;
+	text-align: center
+}
+.td_btn_panel {
+	height: 10px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 2px 2px 2px 2px
+}
+.headerNst {
+	height: 10px;
+	padding: 0 5px 0 5px;
+	font-family: tahoma, sans-serif;
+	font-weight: bold
+}
+#instrTable {
+	width: 100%;
+	height: 100%
+}
+td.tddate {
+	font-family: arial;
+	vertical-align: top;
+	text-align: right;
+	padding: 0 5px 20px 5px
+}
+tr.cellnormal td {
+	border: 1px solid;
+	padding: 2px 2px 2px 2px
+}
+tr.celldate td {
+	border: 1px solid;
+	padding: 15px 5px 0 5px
+}
+a.fit3d {
+	text-decoration: none;
+	border-bottom: 1px dashed
+}
+a.fit3d:hover {
+	text-decoration: none;
+	border-bottom: 2px dashed;
+	border-top: 2px dashed
+}
+a.show2d {
+	text-decoration: none;
+	border-bottom: 2px dotted
+}
+a.show2d:hover {
+	text-decoration: none;
+	border-bottom: 2px solid
+}
+a.show2dxref {
+	text-decoration: none;
+	border-bottom: 2px dotted
+}
+a.show2dxref:hover {
+	text-decoration: none;
+	border-bottom: 2px solid
+}
+div#pad_prq p.para {
+	padding-left: 5px;
+	padding-right: 5px
+}
+#pad_prq {
+	height: 100%;
+	width: 100%
+}
+.hidden {
+	display: none
+}
+.prfxSpan {
+	width: 100%;
+	text-align: right;
+	font-style: italic
+}
+.inspSpan {
+	width: 100%;
+	font-size: 11px;
+	text-align: center;
+	font-style: italic
+}
+#currentStep .prfxSpan,
+#currentStep .inspSpan {
+	display: none
+}
+.treePart {
+	width: 100%;
+	padding: 0 0 0 0;
+	border-collapse: collapse
+}
+.treePart td {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border: 0 none
+}
+.bompart {
+	font-family: sans-serif
+}
+td.npBom,
+td.pmBom {
+	font-family: sans-serif;
+	width: 15px;
+	vertical-align: middle;
+	text-align: center
+}
+.btnPM {
+	width: 15px;
+	height: 15px;
+	border: 1px solid #000000;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block
+}
+.divpart {
+	border: 1px solid;
+	margin: 2px 2px 2px 2px;
+	padding: 2px 5px 2px 5px
+}
+td#mtd1 {
+	padding: 0 3px 0 3px
+}
+td#mtd2 {
+	font-family: tahoma;
+	font-size: 9px;
+	font-weight: bold;
+	padding: 0 3px 0 3px
+}
+td#mtd3 {
+	font-family: tahoma;
+	font-size: 14px;
+	padding: 0 3px 0 3px
+}
+td#mtd4 {
+	font-family: tahoma;
+	font-size: 24px;
+	padding: 0 3px 0 3px
+}
+.textTask {
+	font-weight: bold
+}
+p.para {
+	padding: 1px 1px 1px 1px;
+	margin: 5px 1px 5px 1px
+}
+p.img {
+	padding: 1px 1px 1px 1px;
+	margin: 2px 1px 2px 1px
+}
+div.wholder {
+	width: 100%;
+	text-align: center
+}
+div.wtitle {
+	width: 100%;
+	padding-top: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: tahoma, sans-serif
+}
+div.wmsg {
+	overflow: auto;
+	margin-left: 21px;
+	margin-top: 112px;
+	width: 458px;
+	height: 221px;
+	padding: 0;
+	border: 1px solid white;
+	font-family: tahoma, sans-serif;
+	color: black;
+	font-size: 10pt;
+	text-align: center;
+	background-color: white;
+	vertical-align: middle
+}
+input.wbtn_ok {
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 9pt;
+	text-align: center
+}
+div.step {
+	margin-left: 30px
+}
+div.mstep {
+	margin-left: 30px
+}
+table#prcTable div.mstep {
+	border: 1px solid red
+}
+div.nstep {
+	margin-left: 30px;
+	border: 1px solid red
+}
+h4.htitle {
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px
+}
+h5.hstep {
+	padding: 2px 2px 2px 2px;
+	margin: 2px 2px 2px 2px
+}
+#cContainer {
+	position: relative;
+	width: 100%;
+	height: 100%
+}
+.app-scene {
+	visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 100
+}
+.error-message,
+.loading-indicator {
+	display: none
+}
+.wait>.loading-indicator {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -22mm;
+	margin-top: -22mm
+}
+.error>* {
+	display: none
+}
+.error .error-message {
+	position: absolute;
+	top: 0;
+	display: table;
+	background-color: rgba(255, 0, 0, 0.4);
+	color: #fff;
+	font-size: 1.2em
+}
+.error .error-message .error-message-body {
+	display: table-cell;
+	vertical-align: middle
+}
+.error .error-message .error-message-body div {
+	white-space: normal;
+	padding: 1.2em;
+	text-align: center
+}
+.panel {
+	position: absolute;
+	height: 100%;
+	bottom: 0;
+	overflow: hidden
+}
+#modeFrame {
+	width: 100%;
+	bottom: 0;
+	height: 1.9em;
+	text-align: center;
+	color: white;
+	position: absolute;
+	background-color: #8080c0
+}
+#pager {
+	top: 128px;
+	width: 100%;
+	bottom: 1.9em;
+	overflow: auto;
+	position: absolute
+}
+.alert-message-type-1 {
+	background-image: url(data:image/gif;base64,R0lGODlhJwAnAEAAACH5BAAAAAAALAAAAAAnACcAhwAAAAAAMwAAZgAAmQAAzAAA/wArAAArMwArZgArmQArzAAr/wBVAABVMwBVZgBVmQBVzABV/wCAAACAMwCAZgCAmQCAzACA/wCqAACqMwCqZgCqmQCqzACq/wDVAADVMwDVZgDVmQDVzADV/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMrADMrMzMrZjMrmTMrzDMr/zNVADNVMzNVZjNVmTNVzDNV/zOAADOAMzOAZjOAmTOAzDOA/zOqADOqMzOqZjOqmTOqzDOq/zPVADPVMzPVZjPVmTPVzDPV/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YrAGYrM2YrZmYrmWYrzGYr/2ZVAGZVM2ZVZmZVmWZVzGZV/2aAAGaAM2aAZmaAmWaAzGaA/2aqAGaqM2aqZmaqmWaqzGaq/2bVAGbVM2bVZmbVmWbVzGbV/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5krAJkrM5krZpkrmZkrzJkr/5lVAJlVM5lVZplVmZlVzJlV/5mAAJmAM5mAZpmAmZmAzJmA/5mqAJmqM5mqZpmqmZmqzJmq/5nVAJnVM5nVZpnVmZnVzJnV/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wrAMwrM8wrZswrmcwrzMwr/8xVAMxVM8xVZsxVmcxVzMxV/8yAAMyAM8yAZsyAmcyAzMyA/8yqAMyqM8yqZsyqmcyqzMyq/8zVAMzVM8zVZszVmczVzMzV/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8rAP8rM/8rZv8rmf8rzP8r//9VAP9VM/9VZv9Vmf9VzP9V//+AAP+AM/+AZv+Amf+AzP+A//+qAP+qM/+qZv+qmf+qzP+q///VAP/VM//VZv/Vmf/VzP/V////AP//M///Zv//mf//zP///wAAAAAAAAAAAAAAAAj/AKUJHCjt1r6DCBMqXLiP3i2CEAkaZEhx4bJsESOi8lWxI8Jl4FBlJDgtnEePxMCNJPjKVrSTFevZWklQHMyKxGbSFOjyJkOQOwVO9KmQ3qug0l4RXUjsYdBUJpd+/IY01bmXFfUd1KpQ2TaRO6f1gom1a8igqIZKJaYNKSp0UpcdTAmWptWyS5XZmhbUVTi5Uve501aXJsfA+3JWvUUPcdOqYxHTg4VUmi3EiY8+PRz4cdBplxEra4s0dGfKaDlLHaZzJ1S8RN053YkqcufWdqPeRuoXts+UVa8ilpkKrdq8mne+gisaHN+gPRHjXpnKdmBllY8vZftUO1FlKsNaGpc6Gan339NH3vLtc/TT8dvDBX11/iZdiAEBADs=);
+	background-position: left top;
+	background-repeat: repeat
+}
+.alert-message-type-2 {
+	background-image: url(data:image/gif;base64,R0lGODlhJwAnADAAACH5BAAAAAAALAAAAAAnACcAhwAAAAAAMwAAZgAAmQAAzAAA/wArAAArMwArZgArmQArzAAr/wBVAABVMwBVZgBVmQBVzABV/wCAAACAMwCAZgCAmQCAzACA/wCqAACqMwCqZgCqmQCqzACq/wDVAADVMwDVZgDVmQDVzADV/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMrADMrMzMrZjMrmTMrzDMr/zNVADNVMzNVZjNVmTNVzDNV/zOAADOAMzOAZjOAmTOAzDOA/zOqADOqMzOqZjOqmTOqzDOq/zPVADPVMzPVZjPVmTPVzDPV/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YrAGYrM2YrZmYrmWYrzGYr/2ZVAGZVM2ZVZmZVmWZVzGZV/2aAAGaAM2aAZmaAmWaAzGaA/2aqAGaqM2aqZmaqmWaqzGaq/2bVAGbVM2bVZmbVmWbVzGbV/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5krAJkrM5krZpkrmZkrzJkr/5lVAJlVM5lVZplVmZlVzJlV/5mAAJmAM5mAZpmAmZmAzJmA/5mqAJmqM5mqZpmqmZmqzJmq/5nVAJnVM5nVZpnVmZnVzJnV/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wrAMwrM8wrZswrmcwrzMwr/8xVAMxVM8xVZsxVmcxVzMxV/8yAAMyAM8yAZsyAmcyAzMyA/8yqAMyqM8yqZsyqmcyqzMyq/8zVAMzVM8zVZszVmczVzMzV/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8rAP8rM/8rZv8rmf8rzP8r//9VAP9VM/9VZv9Vmf9VzP9V//+AAP+AM/+AZv+Amf+AzP+A//+qAP+qM/+qZv+qmf+qzP+q///VAP/VM//VZv/Vmf/VzP/V////AP//M///Zv//mf//zP///wAAAAAAAAAAAAAAAAj/AAEIHGgDkjF7CBMqXKgwniUwAyNKBADDEjyGGDFygjhxog2LGUMiZAaMY8eIMCBdFJnRWMmTEm3oYsaypTGTMClaOliTobGbOQmq7OkTaFCBQ4kq/Ikzpw2eShMaPZoyqtSXRwEUXBn12NSgFbkqZZpVa9KoZLPC0AU1KtajH9sSPfawbEqxSt8G/Yi3Z1qqwOT61evUoFV7f8GeHUsYJt/DiXOuFVzTZVPHkGgeBmbG7mKikTH3rdms8UmZmtGa7piSMsvQpyEdRrjaI0irzeqqZTu7dsyds49dPhl2NuKyW2db3u369VfHwCE/J/4Z9PSOBY0vp8pb+nCPmY37Bh5Y3HvHgAA7);
+	background-position: left top;
+	background-repeat: repeat
+}
